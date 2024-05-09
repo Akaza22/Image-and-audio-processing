@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Audio Compressor</title>
+  <link rel="stylesheet" href="audio.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="audio.js" defer></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Image Resizer</a></li>
+      <li><a href="audio.html">Audio Compressor</a></li>
+    </ul>
+  </nav>
+  <div class="content">
+    <div class="wrapper">
+      <div class="upload-box">
+        <input type="file" accept="audio/*" hidden>
+        <audio controls></audio>
+        <p>Pilih File Audio</p>
+      </div>
+      <div class="row checkboxes">
+        <div class="column quality">
+          <input type="checkbox" id="quality">
+          <label for="quality">Kompresi Rendah</label>
+        </div>
+      </div>
+      <button class="download-btn">Unduh File Audio</button>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Resize Gambar</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Image Resizer</a></li>
+        <li><a href="audio/audio.html">Audio Compressor</a></li>
+        
+      </ul>
+    </nav>
+  
+
+    <div class="kontent">
+      <div class="wrapper">
+        <div class="upload-box">
+          <input type="file" accept="image/*" hidden>
+          <img src="upload-folder.svg" alt="">
+          <p>Pilih Gambar</p>
+        </div>
+        <div class="content">
+          <div class="row sizes">
+            <div class="column width">
+              <label>Lebar</label>
+              <input type="number">
+            </div>
+            <div class="column height">
+              <label>Tinggi</label>
+              <input type="number">
+            </div>
+          </div>
+          <div class="row checkboxes">
+            <div class="column ratio">
+              <input type="checkbox" id="ratio" checked>
+              <label for="ratio">Kunci Rasio</label>
+            </div>
+            <div class="column quality">
+              <input type="checkbox" id="quality">
+              <label for="quality">Kurangi Kualitas</label>
+            </div>
+          </div>
+          <button class="download-btn">Unduh Gambar</button>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

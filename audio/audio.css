@@ -1,0 +1,93 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.upload-box audio{
+  width: 100%;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #008B8B;
+}
+.wrapper{
+  width: 450px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 9px;
+  transition: height 0.2s ease;
+}
+.wrapper .upload-box{
+  height: 150px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 2px dashed #afafaf;
+}
+.upload-box p{
+  font-size: 1.06rem;
+  margin-top: 20px;
+}
+.wrapper .row{
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .column label{
+  font-size: 1.06rem;
+}
+.column input{
+  margin-top: 7px;
+}
+.download-btn{
+  width: 100%;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.06rem;
+  border-radius: 5px;
+  padding: 15px 0;
+  margin: 30px 0 10px;
+  background: #008B8B;
+  text-transform: uppercase;
+}
